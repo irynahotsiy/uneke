@@ -3,6 +3,11 @@
   opacity: 1;
   color: #343a40;
   cursor: default;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 .glider-next:focus,
 .glider-prev:focus {
@@ -13,6 +18,9 @@
 
 .glider-dots {
   margin: 0 50px;
+
+  display: flex;
+  align-items: center;
 }
 
 .glider-dot.active {
