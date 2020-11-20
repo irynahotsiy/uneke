@@ -1,0 +1,191 @@
+html,
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+hr {
+  width: 46px;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+.no-white-space {
+  white-space: nowrap;
+}
+
+.navbar-item {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-link-padding {
+  padding: 7px 2px;
+}
+
+.dark-color {
+  background-color: #343a40;
+}
+
+#jumbotron,
+#room-types {
+  position: relative;
+}
+
+.jumbotron-background {
+  background: url("./content.image//jumbotron.image.url.png");
+  background-size: cover;
+}
+
+.hr-jumbotron {
+  border: 2px solid #ffffff;
+  margin-left: 0;
+}
+
+.hr-dark {
+  border: 2px solid #333333;
+  margin-top: 0;
+}
+
+.icon-link {
+  display: inline-block;
+  width: 48px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#second-vector {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -50px;
+  top: 0;
+  background: url("./content.image/vector2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+#first-vector {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: url("./content.image/vector1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+.no-paddings {
+  padding: 0;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+#gallery {
+  padding: 80px 0 50px 0;
+}
+
+.button {
+  padding: 5px 0;
+  width: 260px;
+  margin-top: 10px;
+}
+
+.jumbotron-third-row {
+  padding-bottom: 60px;
+}
+
+.jumbotron-first-row {
+  padding-top: 40px;
+}
+
+.jumbotron-second-row {
+  padding-bottom: 20px;
+}
+
+.btn-white {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #333333;
+}
+
+.btn-transparent {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.container-room-type {
+  padding: 80px 0;
+}
+
+.btn-white:hover,
+.btn-transparent:hover,
+.btn-white:focus,
+.btn-transparent:focus {
+  background: #333333;
+  color: #ffffff;
+  border: 1px solid #333333;
+  outline: none;
+}
+
+.item-desc {
+  padding: 20px 0;
+}
+
+.item-desc > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row [class*="room-types-item"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.stats-item {
+  padding: 15px 0;
+}
+
+.stats-info {
+  padding: 10px;
+}
+
+.stats-border {
+  border-right: 1px solid white;
+}
+
+.image-box-container {
+  padding: 30px;
+  background: #e1e1e1;
+}
+
+.image-box {
+  background-color: #e1e1e1;
+  height: 260px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 992px) {
+  .stats-border {
+    border-right: none;
+    border-bottom: 1px solid white;
+  }
+}

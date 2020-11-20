@@ -1,0 +1,25 @@
+.glider-next,
+.glider-prev {
+  opacity: 1;
+  color: #343a40;
+  cursor: default;
+}
+.glider-next:focus,
+.glider-prev:focus {
+  opacity: 1;
+  cursor: default;
+  outline: none;
+}
+
+.glider-dots {
+  margin: 0 50px;
+}
+
+.glider-dot.active {
+  background: transparent;
+  border: 2px solid #333333;
+}
+
+.glider-slide {
+  padding: 10px;
+}

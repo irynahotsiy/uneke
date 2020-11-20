@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Girloy";
+  src: url("fonts/Gilroy-Light.otf");
+}
+
+nav {
+  font-family: "Girloy", sans-serif;
+}
+
+.navbar-brand {
+  padding-right: 50px;
+}
+
+.jumbotron {
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .dropdown-item {
+  color: #fcfcfc;
+}
+
+nav .navbar-nav li a {
+  font-weight: 200;
+  font-size: 15px;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .dropdown-item:hover,
+.navbar-dark .navbar-nav .dropdown-item:focus {
+  color: grey;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
