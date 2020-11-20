@@ -40,7 +40,7 @@ h1 {
 }
 
 .jumbotron-background {
-  background: url("./content.image//jumbotron.image.url.png");
+  background: url("./images//jumbotron.image.url.png");
   background-size: cover;
 }
 
@@ -67,7 +67,7 @@ h1 {
   right: 0;
   bottom: -50px;
   top: 0;
-  background: url("./content.image/vector2.png");
+  background: url("./images/vector2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -80,7 +80,7 @@ h1 {
   right: 0;
   bottom: 0;
   top: 0;
-  background: url("./content.image/vector1.png");
+  background: url("./images/vector1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
